@@ -6,4 +6,8 @@
  * http://link-to-your-git-repo.com
  */
 
-console.log('main.js file loaded');
+(function($) {
+  $(function() {
+    console.log("lksafs");
+  });
+})(jQuery);
